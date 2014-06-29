@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\problems\ProblemX.cpp">
+      <Filter>problems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\problems\Problem9.cpp">
+      <Filter>problems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\problems\Problem14.cpp">
+      <Filter>problems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\problems\Problem13.cpp">
+      <Filter>problems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\problems\Problem12.cpp">
+      <Filter>problems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\problems\Problem11.cpp">
+      <Filter>problems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\problems\Problem10.cpp">
+      <Filter>problems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utility\Cebir.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utility\FileReader.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utility\InfiniteInteger.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\problems\Problem15.cpp">
+      <Filter>problems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\problems\Problem16.cpp">
+      <Filter>problems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\problems\Problem17.cpp">
+      <Filter>problems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\problems\Problem18.cpp">
+      <Filter>problems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\problems\Problem67.cpp">
+      <Filter>problems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\problems\Problem19.cpp">
+      <Filter>problems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\problems\Problem20.cpp">
+      <Filter>problems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\problems\Problem21.cpp">
+      <Filter>problems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\problems\Problem22.cpp">
+      <Filter>problems</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\problems\ProblemX.h">
+      <Filter>problems</Filter>
+    </ClInclude>
+    <ClInclude Include="src\problems\ProblemBase.h">
+      <Filter>problems</Filter>
+    </ClInclude>
+    <ClInclude Include="src\problems\Problem9.h">
+      <Filter>problems</Filter>
+    </ClInclude>
+    <ClInclude Include="src\problems\Problem14.h">
+      <Filter>problems</Filter>
+    </ClInclude>
+    <ClInclude Include="src\problems\Problem13.h">
+      <Filter>problems</Filter>
+    </ClInclude>
+    <ClInclude Include="src\problems\Problem12.h">
+      <Filter>problems</Filter>
+    </ClInclude>
+    <ClInclude Include="src\problems\Problem11.h">
+      <Filter>problems</Filter>
+    </ClInclude>
+    <ClInclude Include="src\problems\Problem10.h">
+      <Filter>problems</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utility\Cebir.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utility\FileReader.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utility\InfiniteInteger.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utility\Macros.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\problems\Problem15.h">
+      <Filter>problems</Filter>
+    </ClInclude>
+    <ClInclude Include="src\problems\Problem16.h">
+      <Filter>problems</Filter>
+    </ClInclude>
+    <ClInclude Include="src\problems\Problem17.h">
+      <Filter>problems</Filter>
+    </ClInclude>
+    <ClInclude Include="src\problems\Problem18.h">
+      <Filter>problems</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utility\Tree.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\problems\Problem67.h">
+      <Filter>problems</Filter>
+    </ClInclude>
+    <ClInclude Include="src\problems\Problem19.h">
+      <Filter>problems</Filter>
+    </ClInclude>
+    <ClInclude Include="src\problems\Problem20.h">
+      <Filter>problems</Filter>
+    </ClInclude>
+    <ClInclude Include="src\problems\Problem21.h">
+      <Filter>problems</Filter>
+    </ClInclude>
+    <ClInclude Include="src\problems\Problem22.h">
+      <Filter>problems</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="problems">
+      <UniqueIdentifier>{28f12248-6ec5-48b8-8eab-9788ee61b4b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility">
+      <UniqueIdentifier>{ddd1abc8-efd6-4d8e-9c43-b5ed84c83288}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
