@@ -1,5 +1,7 @@
-#ifndef PROBLEM_22_H
-#define PROBLEM_22_H
+#ifndef PROBLEM_21_H
+#define PROBLEM_21_H
+
+#include <algorithm>    // std::sort
 
 #include "ProblemBase.h"
 
@@ -16,9 +18,13 @@ class Problem22 : public ProblemBase
         void Solve();
 
     private:
+        vector<string> mNames;
 
+        void FillNames();
+        void SortNames();
+        int AlphabeticValue(const string& name);
 };
 
 }
 
-#endif // PROBLEM_22_H
+#endif // PROBLEM_21_H

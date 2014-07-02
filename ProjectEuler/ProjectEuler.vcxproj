@@ -102,6 +102,7 @@
     <ClCompile Include="src\problems\Problem20.cpp" />
     <ClCompile Include="src\problems\Problem21.cpp" />
     <ClCompile Include="src\problems\Problem22.cpp" />
+    <ClCompile Include="src\problems\Problem23.cpp" />
     <ClCompile Include="src\problems\Problem67.cpp" />
     <ClCompile Include="src\utility\Cebir.cpp" />
     <ClCompile Include="src\main.cpp" />
@@ -124,6 +125,7 @@
     <ClInclude Include="src\problems\Problem20.h" />
     <ClInclude Include="src\problems\Problem21.h" />
     <ClInclude Include="src\problems\Problem22.h" />
+    <ClInclude Include="src\problems\Problem23.h" />
     <ClInclude Include="src\problems\Problem67.h" />
     <ClInclude Include="src\utility\Cebir.h" />
     <ClInclude Include="src\problems\Problem10.h" />
