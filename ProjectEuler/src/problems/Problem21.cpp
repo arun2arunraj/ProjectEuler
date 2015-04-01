@@ -35,7 +35,7 @@ void Problem21::Solve()
 bool Problem21::AmicablePair(int input)
 {
     vector<long long> factors = Cebir::GetFactors(input);
-    int total = 0;
+    long long int total = 0;
 
     for(vector<long long>::iterator it = factors.begin(); it != factors.end(); ++it)
     {
@@ -48,7 +48,7 @@ bool Problem21::AmicablePair(int input)
         return false;
 
     vector<long long> factors2 = Cebir::GetFactors(total);
-    int total2 = 0;
+    long long int total2 = 0;
 
     for(vector<long long>::iterator it = factors2.begin(); it != factors2.end(); ++it)
     {

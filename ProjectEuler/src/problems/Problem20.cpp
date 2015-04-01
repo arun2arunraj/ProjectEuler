@@ -27,7 +27,7 @@ void Problem20::Solve()
 
     int total = 0;
 
-    for(int i = 0; i < result.length(); i++)
+    for(size_t i = 0; i < result.length(); i++)
     {
         stringstream tempStream;
         int tempNumber = 0;

@@ -17,6 +17,8 @@ class Problem23 : public ProblemBase
 
     private:
 
+        bool IsAbundant(int number);
+
 };
 
 }

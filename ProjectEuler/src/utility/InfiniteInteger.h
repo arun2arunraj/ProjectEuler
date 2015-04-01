@@ -40,6 +40,7 @@ class InfiniteInteger
         bool operator==(const InfiniteInteger& input);
         bool operator!=(const InfiniteInteger& input);
         InfiniteInteger& operator++();
+        InfiniteInteger& operator++(int);
         InfiniteInteger operator+(const InfiniteInteger& input);
         InfiniteInteger& operator+=(const InfiniteInteger& input);
         InfiniteInteger operator*(const InfiniteInteger& input);
@@ -84,6 +85,15 @@ inline bool InfiniteInteger::operator!=(const InfiniteInteger& input)
 
 
 inline InfiniteInteger& InfiniteInteger::operator++()
+{
+    InfiniteInteger one("1");
+    Add(one);
+
+    return *this;
+}
+
+
+inline InfiniteInteger& InfiniteInteger::operator++(int)
 {
     InfiniteInteger one("1");
     Add(one);

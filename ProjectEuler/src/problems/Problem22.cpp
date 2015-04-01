@@ -25,7 +25,7 @@ void Problem22::Solve()
 
     int answer = 0;
 
-    for(int i = 0; i < mNames.size(); i++)
+    for(size_t i = 0; i < mNames.size(); i++)
     {
         //cout << "Name: " << mNames[i] << endl;
         answer += AlphabeticValue(mNames[i]) * (i+1);
@@ -66,7 +66,7 @@ int Problem22::AlphabeticValue(const string& name)
 {
     int alphaValue = 0;
 
-    for(int i = 0; i < name.length(); i++)
+    for(size_t i = 0; i < name.length(); i++)
     {
         alphaValue += ((int)name[i] - 64);
     }

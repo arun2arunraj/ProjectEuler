@@ -20,12 +20,12 @@ namespace projectEuler
 class Cebir
 {
     public:
-        static bool IsPrimeNumber(long long number);                     // Extremely bad prime number tester
-        static vector<long long> GetFactors(long long number);           // Find factors of the given number
-        static int FactorCount(long long number);                        // Finds number of factors of the given number
-        static long Combination(long total, long selection);             // Calculates combination 
-        static long long Factorial(long number);                         // Calculates factorial of given number
-        static InfiniteInteger Factorial(const InfiniteInteger& number); // Calculates factorial of infinite long numbers!
+        static bool IsPrimeNumber(long long number);                                // Extremely bad prime number tester
+        static vector<long long> GetFactors(long long number, bool addSelf = true); // Find factors of the given number
+        static int FactorCount(long long number);                                   // Finds number of factors of the given number
+        static long Combination(long total, long selection);                        // Calculates combination 
+        static long long Factorial(long number);                                    // Calculates factorial of given number
+        static InfiniteInteger Factorial(const InfiniteInteger& number);            // Calculates factorial of infinite long numbers!
 
     private:
         Cebir();  

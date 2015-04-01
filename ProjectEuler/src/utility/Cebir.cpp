@@ -23,7 +23,9 @@ bool Cebir::IsPrimeNumber(long long number)
     else if(number == 2 || number == 3)
         return true;
 
-    for(long long i = 2; i <= sqrt(static_cast<long double>(number)) + 1; i++)
+    double limit = sqrt(static_cast<long double>(number));
+
+    for(long long i = 2; i < (limit + 1.0); i++)
     {
         if(number % i == 0)
             return false;
@@ -33,11 +35,11 @@ bool Cebir::IsPrimeNumber(long long number)
 }
 
 
-vector<long long> Cebir::GetFactors(long long number)
+vector<long long> Cebir::GetFactors(long long number, bool addSelf)
 {
     vector<long long> factors;
     factors.push_back(1); // 1 is factor of everyone
-    const long long limit = number;
+    const long long limit = number / 2 + 1;
     
     for (long long i = 2; i < limit; i++)
     {
@@ -45,7 +47,10 @@ vector<long long> Cebir::GetFactors(long long number)
             factors.push_back(i);
     }
 
-    factors.push_back(number); // Number itself is always factor
+    if(addSelf)
+    {
+        factors.push_back(number); // Number itself is always factor
+    }
 
     return factors; // Return copy of factors
 }
@@ -92,7 +97,7 @@ long Cebir::Combination(long total, long selection)
         selection--;
     }
 
-    return top / divider;
+    return static_cast<long>(top / divider);
 }
 
 

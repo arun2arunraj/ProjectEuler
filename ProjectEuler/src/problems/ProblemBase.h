@@ -4,6 +4,7 @@
 #include <iostream>
 #include <string>
 #include <sstream>
+#include <algorithm>
 #include "../utility/Cebir.h"
 #include "../utility/InfiniteInteger.h"
 #include "../utility/FileReader.h"
