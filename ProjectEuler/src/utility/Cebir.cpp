@@ -123,4 +123,26 @@ InfiniteInteger Cebir::Factorial(const InfiniteInteger& number)
     return factor;
 }
 
+vector<InfiniteInteger> Cebir::Fibonacci(const unsigned long limit)
+{
+    vector<InfiniteInteger> fbArray;
+
+    InfiniteInteger a("1");
+    InfiniteInteger b("1");
+    InfiniteInteger c("0");
+
+    fbArray.push_back(a);
+    fbArray.push_back(b);
+
+    for(unsigned long i = 0; i < limit; i++)
+    {
+        c = a + b;
+        a = b;
+        b = c;
+        fbArray.push_back(c);
+    }
+
+    return fbArray;
+}
+
 }// namespace projectEuler

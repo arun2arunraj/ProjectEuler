@@ -26,6 +26,7 @@ class Cebir
         static long Combination(long total, long selection);                        // Calculates combination 
         static long long Factorial(long number);                                    // Calculates factorial of given number
         static InfiniteInteger Factorial(const InfiniteInteger& number);            // Calculates factorial of infinite long numbers!
+        static vector<InfiniteInteger> Fibonacci(const unsigned long limit);        // Calculate Fibonacci of infinite long numbers!
 
     private:
         Cebir();  
