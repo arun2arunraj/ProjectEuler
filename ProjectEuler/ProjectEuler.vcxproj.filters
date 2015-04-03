@@ -65,6 +65,9 @@
     <ClCompile Include="src\problems\Problem25.cpp">
       <Filter>problems</Filter>
     </ClCompile>
+    <ClCompile Include="src\problems\Problem24.cpp">
+      <Filter>problems</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\problems\ProblemX.h">
@@ -137,6 +140,9 @@
       <Filter>problems</Filter>
     </ClInclude>
     <ClInclude Include="src\problems\Problem25.h">
+      <Filter>problems</Filter>
+    </ClInclude>
+    <ClInclude Include="src\problems\Problem24.h">
       <Filter>problems</Filter>
     </ClInclude>
   </ItemGroup>

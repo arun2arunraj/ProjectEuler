@@ -9,7 +9,7 @@
 
 #include <ctime>
 
-#include "problems/Problem25.h"
+#include "problems/Problem24.h"
 
 
 using std::clock;
@@ -29,7 +29,7 @@ int main()
 
     // Create problem
     ProblemBase* problem;
-    problem = new Problem25();                                      
+    problem = new Problem24();                                      
 
     // Solve & stop time
     problem->Solve();                                               
